@@ -6,6 +6,7 @@ class RomanNumeral(object):
 
   def __init__(self, n):
     self.n = n
+    self.orignial = n
     self.numeral = ""
 
   def convert(self):
